@@ -16,7 +16,7 @@ const Hero = () => {
 
 	return (
 		<section className='bg-gray-50'>
-			<div className='max-w-7xl mx-auto px-6 py-10 md:py-20'>
+			<div className='max-w-7xl mx-auto px-6 py-16 md:py-20'>
 				<div className='flex flex-col items-center justify-center overflow-hidden'>
 					<div className='text-center'>
 						<h1 className='font-bold text-6xl md:text-8xl tracking-tighter text-primary'>

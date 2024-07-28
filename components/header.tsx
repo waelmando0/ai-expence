@@ -5,21 +5,14 @@ import NavMobile from './navbar/nav-mobile';
 
 const Header = () => {
 	return (
-		<header className='relative bg-white shadow-sm border-b border-gray-200'>
+		<header className='relative bg-white shadow-sm border-b border-gray-200 z-30'>
 			<div className='max-w-7xl mx-auto px-6'>
 				<div className='flex items-center justify-between h-20'>
 					{/* Logo */}
 					<Logo />
 
-					<div className='flex items-center space-x-5'>
-						{/* BIGGER SCREENS */}
-						<ClerkButton />
-
-						{/* Mobile Menu */}
-						{/* <div className='sm:hidden'>
-							<NavMobile />
-						</div> */}
-					</div>
+					{/* Clerk Button */}
+					<ClerkButton />
 				</div>
 			</div>
 		</header>
